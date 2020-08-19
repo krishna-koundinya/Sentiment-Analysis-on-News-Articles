@@ -18,10 +18,9 @@ conda install -c conda-forge ibm-watson
 ## 3. About the notebook
 ### Getting the publishers
 [News API](https://newsapi.org/) has news articles from various sources i.e. publishers.
-The names and ids of these sources is collected first to let the user select upto 20 sources, using multiple checboxes.
+The names and ids of these sources is collected to let the user select upto 20 sources, using multiple checkboxes.
 ### Querying
-After selecting the sources of publications, the user can start querying for desired articles.
-The user's input is used to query the [News API](https://newsapi.org/).  
+After selecting the sources of publications, the user can start querying for desired articles.  
 The user can enter the keywords which should definitely occur in the article and also enter the keywords which should not occur in the article.  
 Besides this, the user can also enter keywords which should occur in the title of the article.
 ### Getting the articles
